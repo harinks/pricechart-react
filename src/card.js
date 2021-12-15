@@ -11,10 +11,10 @@ export default function Card(props) {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>{props.value2}</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>{props.value3}</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Community Access</li>
-                    <li className={props.text1}><span className="fa-li"><i className="fas fa-times"></i></span>Unlimited Private Projects</li>
-                    <li className={props.text2}><span className="fa-li"><i className="fas fa-times"></i></span>Dedicated Phone Support</li>
-                    <li className={props.text3}><span className="fa-li"><i className="fas fa-times"></i></span>Free Subdomain</li>
-                    <li className={props.text4}><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status Reports</li>
+                    <li className={props.text1}><span className="fa-li"><i className={props.icon1}></i></span>Unlimited Private Projects</li>
+                    <li className={props.text2}><span className="fa-li"><i className={props.icon2}></i></span>Dedicated Phone Support</li>
+                    <li className={props.text3}><span className="fa-li"><i className={props.icon3}></i></span>Free Subdomain</li>
+                    <li className={props.text4}><span className="fa-li"><i className={props.icon4}></i></span>Monthly Status Reports</li>
                 </ul>
                 <div className="d-grid">
                     <a href="#" className="btn btn-primary text-uppercase">Button</a>

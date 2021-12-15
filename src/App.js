@@ -16,6 +16,10 @@ function App() {
       text2="text-muted"
       text3="text-muted"
       text4="text-muted"
+      icon1="fas fa-times"
+      icon2="fas fa-times"
+      icon3="fas fa-times"
+      icon4="fas fa-times"
       ></Card>
 
       <Card 
@@ -25,6 +29,10 @@ function App() {
       value2="50GB Storage"
       value3="Unlimited Public Projects"
       text4="text-muted"
+      icon1="fas fa-check"
+      icon2="fas fa-check"
+      icon3="fas fa-check"
+      icon4="fas fa-times"
       ></Card>
 
       <Card 
@@ -33,6 +41,10 @@ function App() {
       value1="Unlimited Users"
       value2="150GB Storage"
       value3="Unlimited Public Projects"
+      icon1="fas fa-check"
+      icon2="fas fa-check"
+      icon3="fas fa-check"
+      icon4="fas fa-check"
       ></Card>
     </div>
   </div>
